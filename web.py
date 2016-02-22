@@ -4,7 +4,7 @@ from flask import request
 from flask import Flask
 from flask import jsonify, render_template
 
-app = Flask('game')
+app = Flask('gamehouse')
 app.debug = True
 
 redis = redis.StrictRedis('127.0.0.1', 6379, 0)
