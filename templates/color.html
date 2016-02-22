@@ -69,9 +69,9 @@
 		function showResult(ranks) {
 			$('#blocks').hide();
 			if(step > 2) {
-				$('#grade').html('You finished ' + (step-1) + ' steps');
+				$('#grade').html('你完成了 ' + (step-1) + ' 步');
 			} else {
-				$('#grade').html('I guess you are  blind');
+				$('#grade').html('你好像是个盲人');
 			}
 			var code = '';
 			var total = 0;
@@ -83,7 +83,7 @@
 				percents[i] = Math.round(100 * ranks[i] / total)
 			}
 			for(var i in ranks) {
-				code += '<div class="progress"><div class="progress-bar progress-bar-success progress-bar-striped" style="min-width: 2em;width:' + percents[i] +'%">'+ i +' step</div></div>';
+				code += '<div class="progress"><div class="progress-bar progress-bar-success progress-bar-striped" style="min-width: 2em;width:' + percents[i] +'%">'+ i +' 步</div></div>';
 			}
 			$('#ranks').html(code);
 			$('#result').show();
@@ -145,6 +145,6 @@
 		<div id="grade"></div>
 		<div id="ranks">
 		</div>
-		<div><button id="replay" class="btn btn-lg btn-success">Replay</button></div>
+		<div><button id="replay" class="btn btn-lg btn-success">再来一次</button></div>
     </div>
 </body>
