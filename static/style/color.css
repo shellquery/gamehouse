@@ -1,33 +1,35 @@
 body {
-			margin-top: 10px;
-		}
-        #blocks {
-            width: 100%;
-            margin:0px auto;
-        }
-        .block {
-            width: 10%;
-            background-color:white;
-            margin: 4px;
-            display: inline-block;
-        }
-        #stepper {
-            width: 100%;
-			font-size: 2em;
-			min-height: 36px;
-            color: green;
-            text-align: center;
-        }
-		#result {
-			width: 60%;
-			margin: 0px auto;
-			display: none;
-			color: green;
-			text-align: center;
-		}
-		#ranks {
-			margin-top: 10px;
-		}
-		#replay {
-			margin-top: 10px;
-		}
+	margin-top: 10px;
+	max-width: 640px;
+}
+#blocks {
+    width: 100%;
+    margin:0px auto;
+}
+.block {
+    width: 10%;
+    background-color:white;
+    margin: 4px;
+    display: inline-block;
+}
+#stepper {
+    width: 100%;
+	font-size: 2em;
+	min-height: 36px;
+    color: green;
+    text-align: center;
+}
+#result {
+	width: 60%;
+	margin: 0px auto;
+	display: none;
+	color: green;
+	text-align: center;
+}
+#ranks {
+	margin-top: 10px;
+}
+#replay {
+	margin-top: 10px;
+	margin-bottom:10px;
+}
